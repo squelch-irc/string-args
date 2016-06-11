@@ -54,3 +54,10 @@ test('empty args should return empty obj', t => {
 test('empty pattern should return empty obj', t => {
     t.deepEqual(parse('', 'uno dos tres'), {});
 });
+
+test('should work with special characters', t => {
+    t.deepEqual(parse('target msg...', '##javascript hello everybody'), {
+        target: '##javascript',
+        msg: 'hello everybody'
+    });
+});
