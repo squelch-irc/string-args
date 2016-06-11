@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "author": "Rahat Ahmed",
-  "repository": "rahatarmanahmed/string-args",
+  "repository": "squelch-irc/string-args",
   "scripts": {
     "test": "ava",
     "lint": "eslint lib test",

@@ -1,4 +1,4 @@
-# string-args [![Build Status](https://travis-ci.org/rahatarmanahmed/string-args.svg?branch=master)](https://travis-ci.org/rahatarmanahmed/string-args)
+# string-args [![Build Status](https://travis-ci.org/squelch-irc/string-args.svg?branch=master)](https://travis-ci.org/squelch-irc/string-args)
 Simple parser for space delimited arguments, like the arguments of an [IRC command](https://github.com/squelch-irc/squelch).
 
 ## Installing
