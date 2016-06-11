@@ -1,0 +1,21 @@
+{
+  "name": "string-args",
+  "description": "Simple parser for space delimited arguments.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "author": "Rahat Ahmed",
+  "repository": "rahatarmanahmed/string-args",
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint lib test",
+    "pretest": "npm run lint",
+    "prepublish": "npm run test"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.12.0",
+    "eslint-config-kellyirc": "^3.1.0"
+  }
+}
